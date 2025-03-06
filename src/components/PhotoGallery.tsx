@@ -1,11 +1,14 @@
 import React from 'react';
 import { Camera } from 'lucide-react';
+import imagem_1 from "../public/images/foto1.jpg"
+import imagem_2 from "../public/images/foto2.jpg"
+import imagem_3 from "../public/images/foto3.jpg"
 
 export const PhotoGallery: React.FC = () => {
   const photos = [
-    'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&q=80',
-    'https://images.unsplash.com/photo-1545389336-cf090694435e?w=500&q=80',
-    'https://images.unsplash.com/photo-1519741497674-611481863552?w=500&q=80',
+    imagem_1,
+    imagem_2,
+    imagem_3,
   ];
 
   return (

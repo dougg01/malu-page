@@ -10,7 +10,7 @@ function App() {
   const [showProposal, setShowProposal] = useState(false);
   const [accepted, setAccepted] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const startDate = new Date('2023-01-01'); // Adjust to your actual start date
+  const startDate = new Date('2024-07-14'); // Adjust to your actual start date
   const daysInLove = calculateDaysInLove(startDate);
 
   useEffect(() => {
