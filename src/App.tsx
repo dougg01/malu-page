@@ -5,6 +5,7 @@ import { FireworksCanvas } from './components/Fireworks';
 import { DodgeButton } from './components/DodgeButton';
 import { PhotoGallery } from './components/PhotoGallery';
 import { CountUpAnimation } from './components/CountUpAnimation';
+import music1 from "./public/audio/music1.mp3"
 
 function App() {
   const [showProposal, setShowProposal] = useState(false);
@@ -14,7 +15,7 @@ function App() {
   const daysInLove = calculateDaysInLove(startDate);
 
   useEffect(() => {
-    const audio = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+    const audio = new Audio(music1);
     audio.loop = true;
 
     if (isPlaying) {
